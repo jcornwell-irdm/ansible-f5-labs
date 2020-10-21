@@ -28,6 +28,6 @@
         
     - name: DISPLAY COMPLETE BIG-IP SYSTEM INFORMATION
       debug: 
-      var: device_facts
+        var: device_facts
       tags: debug
 ...
